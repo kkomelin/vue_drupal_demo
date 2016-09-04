@@ -25,7 +25,7 @@ Please use Full HTML format for custom blocks.
   <ul>
     <li v-for="user in users">{{{ user.name }}}</li>
   </ul>
-  <button v-on:click="reverseList">reverse</button>
+  <button v-on:click="reverse">reverse</button>
 </div>
 ```
 

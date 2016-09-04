@@ -33,7 +33,7 @@
       );
     },
     methods: {
-      reverseList: function () {
+      reverse: function () {
         this.users.reverse();
       }
     }
