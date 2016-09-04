@@ -6,6 +6,8 @@ libraries:
   - vue_drupal_demo/vue-drupal-demo
 dependencies:
   - vue_libraries
+  - rest
+  - views
 
 version: '8.x-1.0'
 core: '8.x'
