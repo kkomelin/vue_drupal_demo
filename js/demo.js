@@ -1,4 +1,6 @@
 (function( Vue ) {
+
+  // Vue Demo 1: Phrase length.
   new Vue({
     el: '#demo1',
     data: {
@@ -11,6 +13,7 @@
     }
   });
 
+  // Vue Demo 2: User list.
   new Vue({
     el: '#demo2',
     data: {
