@@ -24,6 +24,8 @@ class UserListBlock extends BlockBase {
       '#theme' => 'vue_drupal_demo_user_list',
       '#attached' => array(
         'library' =>  array(
+          // You may want to add vue_libraries/vue and vue_libraries/vue-resource here as well.
+          // In my case they are added by vue_libraries module.
           'vue_drupal_demo/vue-drupal-demo',
         ),
       ),

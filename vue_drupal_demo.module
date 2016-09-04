@@ -18,6 +18,8 @@ function vue_drupal_demo_page_attachments(array &$page) {
   /* Add your conditions here when not to add the libraries. */
 
   // Use this method in case you create your custom blocks through admin panel.
+  // You may want to add vue_libraries/vue and vue_libraries/vue-resource here as well.
+  // In my case they are added by vue_libraries module.
   $page['#attached']['library'][] = 'vue_drupal_demo/vue-drupal-demo';
 }
 
