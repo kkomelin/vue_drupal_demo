@@ -28,7 +28,7 @@
         },
         function (response) {
           // Error handler.
-          console.log('Some error occured.');
+          console.log('An error occurred.');
         }
       );
     },
