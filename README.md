@@ -27,6 +27,7 @@ Please use Full HTML format.
 </div>
 ```
 
+Make sure you grant 'View user information' permission to your user in order to see the user list in the second example.
 
 ## Dependencies
 
