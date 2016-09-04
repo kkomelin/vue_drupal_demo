@@ -1,0 +1,8 @@
+vue-drupal-demo:
+  remote: https://github.com/kkomelin/vue_drupal_demo
+  license:
+    name: gpl2
+    url: https://url-to-gpl2-license
+    gpl-compatible: true
+  js:
+    js/demo.js: { }

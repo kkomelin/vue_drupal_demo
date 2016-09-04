@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Primarily Drupal hooks.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function vue_drupal_demo_page_attachments(array &$page) {
+
+  // Do not add libraries during installation steps.
+  if (drupal_installation_attempted()) {
+    return;
+  }
+
+  /* Add your conditions here when not to add the libraries. */
+
+  $page['#attached']['library'][] = 'vue_drupal_demo/vue-drupal-demo';
+}
