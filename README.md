@@ -6,7 +6,7 @@ Drupal 8 module that implements demo functionality for my presentation given at 
 
 Enable the module as usual.
 
-Then you may place "Vue Demo 1 (in code): Phrase Length" and "Vue Demo 2 (in code): User List" into a sidebar or 
+Then you may place existing blocks "Vue Demo 1 (in code): Phrase Length" and "Vue Demo 2 (in code): User List" into a sidebar or 
 create two custom blocks (admin/structure/block/block-content) with the content below and place them into a sidebar.
 Please use Full HTML format for custom blocks.
 
