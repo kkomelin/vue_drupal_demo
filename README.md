@@ -24,6 +24,7 @@ Please use Full HTML format.
   <ul>
     <li v-for="user in users">{{{ user.name }}}</li>
   </ul>
+  <button v-on:click="reverseList">reverse</button>
 </div>
 ```
 

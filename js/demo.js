@@ -31,6 +31,11 @@
           console.log('Some error occured.');
         }
       );
+    },
+    methods: {
+      reverseList: function () {
+        this.users.reverse();
+      }
     }
   });
 })(Vue);
