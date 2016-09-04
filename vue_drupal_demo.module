@@ -17,5 +17,20 @@ function vue_drupal_demo_page_attachments(array &$page) {
 
   /* Add your conditions here when not to add the libraries. */
 
+  // Use this method in case you create your custom blocks through admin panel.
   $page['#attached']['library'][] = 'vue_drupal_demo/vue-drupal-demo';
+}
+
+/**
+ * Implements hook_theme().
+ */
+function vue_drupal_demo_theme() {
+  return array(
+    'vue_drupal_demo_phrase_length' => array(
+      'variables' => NULL,
+    ),
+    'vue_drupal_demo_user_list' => array(
+      'variables' => NULL,
+    ),
+  );
 }

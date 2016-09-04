@@ -6,10 +6,11 @@ Drupal 8 module that implements demo functionality for my presentation given at 
 
 Enable the module as usual.
 
-Create two custom blocks (admin/structure/block/block-content) with the following content and place them into a sidebar.
-Please use Full HTML format.
+Then you may place "Vue Demo 1 (in code): Phrase Length" and "Vue Demo 2 (in code): User List" into a sidebar or 
+create two custom blocks (admin/structure/block/block-content) with the content below and place them into a sidebar.
+Please use Full HTML format for custom blocks.
 
-1) Vue Demo 1: Phrase length  
+1) Vue Demo 1: Phrase Length  
 
 ```html
 <div id="demo1">
@@ -17,7 +18,7 @@ Please use Full HTML format.
 </div>
 ```
 
-2) Vue Demo 2: User list  
+2) Vue Demo 2: User List  
 
 ```html
 <div id="demo2">
