@@ -46,3 +46,7 @@ _Please use Full HTML format for custom blocks._
 
 - rest (core)
 - views (core)
+
+## License
+
+[GNU GPL v2](https://github.com/kkomelin/vue_drupal_demo/blob/master/LICENSE.txt)
