@@ -1,3 +1,35 @@
+vue:
+  remote: https://vuejs.org
+  license:
+    name: MIT
+    gpl-compatible: false
+  js:
+    /libraries/vue/vue.min.js: { weight: -1, minified: true }
+
+vue-dev:
+  remote: https://vuejs.org
+  license:
+    name: MIT
+    gpl-compatible: false
+  js:
+    /libraries/vue/vue.js: { weight: -1 }
+
+vue-resource:
+  remote: https://github.com/vuejs/vue-resource
+  license:
+    name: MIT
+    gpl-compatible: false
+  js:
+    /libraries/vue-resource/vue-resource.min.js: { weight: -1, minified: true }
+
+vue-resource-dev:
+  remote: https://github.com/vuejs/vue-resource
+  license:
+    name: MIT
+    gpl-compatible: false
+  js:
+    /libraries/vue-resource/vue-resource.js: { weight: -1 }
+
 vue-drupal-demo:
   remote: https://github.com/kkomelin/vue_drupal_demo
   license:

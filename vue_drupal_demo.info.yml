@@ -1,11 +1,14 @@
 name: Vue Drupal Demo
-description: A small Drupal 8 module that implements demo functionality for my presentations given at DrupalCamp Krasnodar 2016.
+description: Implements demo functionality for Vue.js presentation given at DrupalCamp Krasnodar 2016.
 type: module
 package: Vue
 libraries:
+  - vue_libraries/vue
+  - vue_libraries/vue-dev
+  - vue_libraries/vue-resources
+  - vue_libraries/vue-resources-dev
   - vue_drupal_demo/vue-drupal-demo
 dependencies:
-  - vue_libraries
   - rest
   - views
 
