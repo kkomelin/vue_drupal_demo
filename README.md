@@ -1,5 +1,5 @@
 Vue Drupal Demo
-----
+=====
 Drupal 8 module that implements demo functionality for [Vue.js](https://vuejs.org/) presentation given at [DrupalCamp Krasnodar 2016](http://2016.drupalyug.ru/program/sessions/reaktivnyy-frontend-freymvork-dlya-lyudey).
 
 ## Installation
