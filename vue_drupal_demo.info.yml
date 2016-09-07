@@ -3,10 +3,10 @@ description: Implements demo functionality for Vue.js presentation given at Drup
 type: module
 package: Vue
 libraries:
-  - vue_libraries/vue
-  - vue_libraries/vue-dev
-  - vue_libraries/vue-resources
-  - vue_libraries/vue-resources-dev
+  - vue_drupal_demo/vue
+  - vue_drupal_demo/vue-dev
+  - vue_drupal_demo/vue-resources
+  - vue_drupal_demo/vue-resources-dev
   - vue_drupal_demo/vue-drupal-demo
 dependencies:
   - rest
