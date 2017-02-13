@@ -1,10 +1,12 @@
-Vue Drupal Demo
+Vue 1 Drupal Demo
 =====
 Drupal 8 module that implements demo functionality for [Vue.js](https://vuejs.org/) presentation given at [DrupalCamp Krasnodar 2016](http://2016.drupalyug.ru/program/sessions/reaktivnyy-frontend-freymvork-dlya-lyudey).
 
+_Please note: the demo requires Vue 1 and needs some modifications in order to work with Vue 2. Read more [here (in Russian)](https://github.com/kkomelin/vue_drupal_demo/issues/1)_
+
 ## Installation
 
-1) Put vue libraries into **/libraries** so that the paths are:
+1) Put Vue 1 libraries into **/libraries** so that the paths are:
 
 > /libraries/vue/vue.min.js  
 > /libraries/vue/vue.js  
@@ -41,6 +43,10 @@ _Please use Full HTML format for custom blocks._
 4) Place the blocks into a sidebar.
 
 5) Make sure you granted 'View user information' permission to your user in order to see the user list in the second example.
+
+## Vue version
+
+The demo currently only supports Vue 1.
 
 ## Dependencies
 
