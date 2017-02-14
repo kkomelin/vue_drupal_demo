@@ -1,4 +1,4 @@
-(function( Vue ) {
++(function( Vue ) {
 
   // Vue Demo 1: Phrase length.
   new Vue({
